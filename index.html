@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--========= head tag======== -->
+
+<head>
+    <title>Snow Basin</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="header.scss">
+    <!-- bootstrap 4 cdn links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+        integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Raleway:wght@500&display=swap"
+        rel="stylesheet">
+    <!-- swiper slider -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- ============data-aos============== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <!--======= navbar start======== -->
+    <nav>
+        <div class="container-fluid text-white px-0">
+            <div class="row mininav mx-auto justify-content-around">
+                <div class="col-lg-6 text-center">
+                    <h5 class="my-0 py-2">Welcome to Snowbasin Vacation Rentals!</h5>
+
+                </div>
+                <div class="col-lg-6">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-envelope-open"></i>
+                                Contact us </a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-map"></i> How to Find us
+                            </a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-mobile-button"></i> +91 9100007730/1 </a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-facebook-f"></i> </a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-twitter"></i> </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar navbar-expand-lg sticky-top text-center justify-content-around container-fluid p-0">
+            <button class="navbar-toggler" id="menubtn" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavbar">
+                <span class=" text-center text-white" style="font-size: 35px;"><i class="fa-solid fa-bars"></i>
+                    MENU</span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center text-center" id="collapsibleNavbar">
+                <a class="navbar-brand nb2" href="index.html"> <img
+                        src="./image/navbar-logo.png" alt="Logo"
+                        height="" width=""></a>
+
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item m-1"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item m-1"><a href="index.html" class="nav-link">Vacation Rentals</a></li>
+                    <li class="nav-item m-1"><a href="index.html" class="nav-link">Vidanta Resorts</a></li>
+                    <li class="nav-item dropdown m-1">
+                        <a href="#" class="nav-link navbar-toggle" id="navbardrop" data-toggle="dropdown">Area Guide<i
+                                class="fa-solid fa-caret-down px-1"></i></a>
+                        <div class="dropdown-menu bg-dark">
+                            <a class="dropdown-item" href="#">Outdoor Activities</a>
+                            <a class="dropdown-item" href="#">Attractions</a>
+                            <a class="dropdown-item" href="#">Shoping</a>
+                            <a class="dropdown-item" href="#">Services</a>
+                            <a class="dropdown-item" href="#">Dining</a>
+                            <a class="dropdown-item" href="#">Events to Catch</a>
+                        </div>
+                    </li>
+                    <li class="nav-item m-1"><a href="index.html" class="nav-link">Reviews</a></li>
+                    <li class="nav-item m-1"><a href="index.html" class="nav-link">About us</a></li>
+                    <li class="nav-item m-1"><a href="index.html" class="nav-link">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--======= navbar end========= -->
+
+
+    <!-- =======main banner start========= -->
+    <section class="container-fluid p-0" id="hom">
+        <div class="main-banner">
+            <video src="./image/Super Loops at Powder Mountain - 1-5-2017.mp4#t=00:00:33" autoplay loop muted></video>
+            <div class="banner-content">
+                <p class="mh1 mb-0 text-center">SNOWBASIN VACATION RENTALS</p>
+                <p class="mh2 text-center">Your Utah Home Away From Home</p>
+            </div>
+            <div class="banner-content2 desk text-white">
+                <div class="form-row justify-content-around">
+                    <div class="col-lg-3 col-md-6 ">
+                        <label for="checkin">Check In</label> <br>
+                        <input class="form-control form-control-lg" type="text" placeholder="Check In Date">
+                    </div>
+                    <div class="col-lg-3 col-md-6 "> <label for="checkout">Check Out</label> <br>
+                        <input class="form-control form-control-lg" id="checkout" type="text"
+                            placeholder="Check Out Date">
+                    </div>
+                    <div class="col-lg-1 col-md-3 "> <label for="adult">Adults</label> <br>
+                        <select class="form-control form-control-lg" name="adult" id="adult">
+                            <option value="1" disabled selected hidden>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-1  col-md-3"> <label for="child">Children</label> <br>
+                        <select class="form-control form-control-lg" name="child" id="child">
+                            <option value="0" disabled selected hidden>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3  col-md-6 "> <button class="btn bttn btn-lg btn-block">Search</button></div>
+                </div>
+                </form>
+            </div>
+            <div class="banner-content2 mob text-center">
+                <a href="#cn">
+                    <button class="btn bttn btn-lg" id="cnbtn">Check In Now</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- =======main banner end========= -->
+
+
+    <!-- ========wellcome section start========= -->
+    <section class="container text-justify well">
+        <div id="well-txt">
+            <h2 class="c1 hf text-center">WELCOME</h2> <br>
+            <h3 class="text-center">Snowbasin Vacation Rentals</h3> <br>
+            <h4 class="c1 text-center ">Ultimate 4-Season Vacation Rental Homes</h4> <br>
+            <p class="text-center">Snowbasin Vacation Rentals offers visitors 4 large luxury vacation homes located in
+                the
+                Trapper's Ridge development of Wolf Creek Resort.</p> <br>
+            <p> <span class="c1"> TR122 (Big Horn—8 bedroom/ 5 bathrooms)</span>, <span class="c1"> TR50 (Wind River—8
+                    bedroom/4 bathrooms)</span>, and <span class="c1"> TR63 (Wind River—5
+                    bedroom/3bathrooms)</span>, <span class="c1"> TR123 (Big Horn–6 bedrooms/5.5 bathrooms)</span> are
+                well-maintained newer homes that are
+                finely tuned for your 4-season vacation experience. Your large family or group can enjoy luxury and
+                privacy
+                in our amenity-rich homes. You will have access to Trapper’s Ridge swimming pool, hot tub, basketball,
+                tennis and golf. You will enjoy the great outdoor activities that the Ogden Valley is famous for skiing,
+                snowboarding, hiking, fly fishing… Then, come home to your well-supplied house with plenty of open space
+                for
+                all to relax!</p>
+            <br>
+            <p>Since 2006, Snowbasin Vacation Rentals has provided guests with well-outfitted homes at owner direct
+                outstanding values.</p>
+            <br>
+            <p>Our goal is to care for each home as if it were our own and care for each guest as if they were our
+                guests.
+                We work very hard to offer an exceptional value to the guests while creating a greater return to the
+                homeowner. If you are a homeowner interested in this level of service and return, we welcome new
+                additions
+                to our listings…please inquire.</p> <br>
+            <h3 class="c1 text-center hf">
+                Close to Utah's Best
+            </h3>
+            <p>Our rental homes are a short 55-minute drive from Salt Lake International Airport. Powder Mountain Ski
+                Resort
+                and its 10,000 acres of ultimate powder is just 10 minutes away. With no lift lines, you’ll have instant
+                access to unlimited Utah powder. Snowbasin, a Sun Valley resort, is just 20 minutes away. With luxury
+                lifts
+                and lodge, Snowbasin was the home of the 2002 Olympic Alpine Downhill and Super-G Events. Snowbasin has
+                terrain to suit all skiing abilities from beautiful long groomed runs as well as the best off-piste
+                skiing
+                you will find! An un-crowded Utah gem!</p>
+
+            <p>MORE POWD…LESS CROWD!</p>
+
+            <p>You’ll enjoy golfing at the Wolf Creek Championship Golf Course which is Audubon Society approved. <a
+                    href="https://www.vortexdigitalworld.com" class="c1"> www.wolfcreekresort.com/golf/</a>
+
+                You will have access to The Club @ Wolf Creek. State-of-the-art fitness facility. $30/10 day pass:
+                <a href="https://www.vortexdigitalworld.com" class="c1">fitness.wolfcreekresort.com/</a> (not available at
+                this time with Covid)
+            </p>
+
+            <p>These homes are perfect for family reunions, multi-family fun, yoga retreats, business retreats, church
+                retreats or girl’s or guy’s trips!!!</p>
+
+            <p>Hiking…fishing… Pine view Reservoir water sports… tennis…Trappers Ridge swimming pool……no end of
+                recreation!
+            </p>
+        </div>
+        <button class="btn bttn float-right" id="bttn">Read <span id="txtbtn">More</span></button>
+        <br><br><br><br><br>
+
+    </section>
+    <!-- ========wellcome section end========= -->
+
+
+    <!--============ Property section start============ -->
+    <section class="container-fluid py-5" id="gal">
+        <h1 class="c1 text-center hf py-3">Our Properties</h1>
+        <div class="gall-slider mx-auto">
+            <div class="swiper swiper-3">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide ">
+                        <div class="card shadow-lg">
+                            <div class="card-body">
+                                <img src="./image/prop1.jpeg" alt="Image Gallery">
+                            </div>
+                            <div class="card-footer">
+                                <h3 class="c1 text-center hf">TR122 (Big Horn)</h3>
+                                <p class="text-center">
+                                    <i class="fa-solid fa-bed"></i> Bedrooms: 8,
+                                    <i class="fa-solid fa-bath"></i> Bathrooms: 5
+                                </p>
+                                <p class="text-center">
+                                    <i class="fa-solid fa-bed"></i> Sleeps: 20,
+                                    <i class="fa-solid fa-moon"></i> Minimum Stay: 3 Nights
+                                </p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <div class="card shadow-lg">
+                            <div class="card-body">
+                                <img src="./image/prop2.jpg" alt="Image Gallery">
+                            </div>
+                            <div class="card-footer">
+                                <h3 class="c1 text-center hf">TR123 (Big Horn)</h3>
+                                <p class="text-center">
+                                    <i class="fa-solid fa-bed"></i> Bedrooms: 6,
+                                    <i class="fa-solid fa-bath"></i> Bathrooms: 5 and Half
+                                </p>
+                                <p class="text-center">
+                                    <i class="fa-solid fa-bed"></i> Sleeps: 20,
+                                    <i class="fa-solid fa-moon"></i> Minimum Stay: 3 Nights
+                                </p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <div class="card shadow-lg">
+                            <div class="card-body">
+                                <img src="./image/prop3.jpeg" alt="Image Gallery">
+                            </div>
+                            <div class="card-footer">
+                                <h3 class="c1 text-center hf">TR50 (Wind River)</h3>
+                                <p class="text-center">
+                                    <i class="fa-solid fa-bed"></i> Bedrooms: 8,
+                                    <i class="fa-solid fa-bath"></i> Bathrooms: 4
+                                </p>
+                                <p class="text-center">
+                                    <i class="fa-solid fa-bed"></i> Sleeps: 20,
+                                    <i class="fa-solid fa-moon"></i> Minimum Stay: 3 Nights
+                                </p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <div class="card shadow-lg">
+                            <div class="card-body">
+                                <img src="./image/prop4.jpeg"
+                                    alt="Image Gallery">
+                            </div>
+                            <div class="card-footer">
+                                <h3 class="c1 text-center hf">TR63 (Wind River)</h3>
+                                <p class="text-center">
+                                    <i class="fa-solid fa-bed"></i> Bedrooms: 5,
+                                    <i class="fa-solid fa-bath"></i> Bathrooms: 3
+                                </p>
+                                <p class="text-center">
+                                    <i class="fa-solid fa-bed"></i> Sleeps: 14,
+                                    <i class="fa-solid fa-moon"></i> Minimum Stay: 3 Nights
+                                </p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <script>
+            var swiper = new Swiper(".swiper-3", {
+                grabCursor: true,
+                autoplay: true,
+                loop: true,
+                breakpoints: {
+                    '100': {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                    },
+                    '700': {
+                        slidesPerView: 2,
+                        spaceBetween: 30,
+                    },
+                    '1024': {
+                        slidesPerView: 4,
+                        spaceBetween: 25,
+                    },
+                },
+            });
+        </script>
+    </section>
+    <!--============ Property section end============ -->
+
+
+    <!--============ Attraction section start DESK============ -->
+    <section class="container-fluid px-0 att-main desk" id="att">
+        <h1 class="c1 text-center hf py-3">Attraction</h1>
+        <div class="att-sec mx-auto">
+            <div class="row no-gutters">
+                <div class="col-md-6">
+                    <div class="att-txt">
+                        <h2 class="hf py-2">OUTDOOR ACTIVITIES</h2>
+                        <button class="btn bttn-att btn-lg">More Info</button>
+                    </div>
+                </div>
+                <div class="col-md-6 att-img">
+                    <img src="./image/att1.jpeg" alt="photo">
+                </div>
+                <div class="col-md-6 att-img">
+                    <img src="./image/att2.jpeg"
+                        alt="photo">
+                </div>
+                <div class="col-md-6">
+                    <div class="att-txt">
+                        <h2 class="hf py-2">ATTRACTIONS</h2>
+                        <p class="text-justify">Luxury Vacation Rental Homes Offered at an Excellent Value. Serving
+                            Powder Mountain, Snowbasin Ski Resorts and the Ogden Valley.</p>
+                        <button class="btn bttn-att btn-lg">More Info</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="att-txt">
+                        <h2 class="hf py-2">SERVICES</h2>
+                        <button class="btn bttn-att btn-lg">More Info</button>
+                    </div>
+                </div>
+                <div class="col-md-6 att-img">
+                    <img src="./image/att3.jpeg"
+                        alt="photo">
+                </div>
+                <div class="col-md-6 att-img">
+                    <img src="./image/att4.jpeg"
+                        alt="photo">
+                </div>
+                <div class="col-md-6">
+                    <div class="att-txt">
+                        <h2 class="hf py-2">EVENTS TO WATCH</h2>
+                        <button class="btn bttn-att btn-lg">More Info</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--============ Attraction section end============ -->
+
+
+    <!--============ Attraction section start mob============ -->
+    <section class="container-fluid px-0 py-5 mob" id="att">
+        <h1 class="c1 text-center hf py-3">Attraction</h1>
+        <div class="att-sec mx-auto">
+            <div class="row no-gutters">
+                <div class="col-md-6 att-img1">
+                    <img src="./image/att1.jpeg" alt="photo">
+                    <div class="att-txt1 text-center text-white">
+                        <h2 class="hf py-2">OUTDOOR ACTIVITIES</h2>
+                        <button class="btn btn-lg bttn">More Info</button>
+                    </div>
+                </div>
+                <div class="col-md-6 att-img2">
+                    <img src="./image/att2.jpeg"
+                        alt="photo">
+                    <div class="att-txt2  text-center text-white">
+                        <h2 class="hf py-2">ATTRACTIONS</h2>
+                        <p class="">Luxury Vacation Rental Homes Offered at an Excellent Value.</p>
+                        <button class="btn btn-lg bttn">More Info</button>
+                    </div>
+                </div>
+                <div class="col-md-6 att-img3">
+                    <img src="./image/att3.jpeg"
+                        alt="photo">
+                    <div class="att-txt3   text-center text-white">
+                        <h2 class="hf py-2">SERVICES</h2>
+                        <button class="btn btn-lg bttn">More Info</button>
+                    </div>
+                </div>
+                <div class="col-md-6 att-img4">
+                    <img src="./image/att4.jpeg"
+                        alt="photo">
+                    <div class="att-txt4  text-center text-white">
+                        <h2 class="hf py-2">EVENTS TO WATCH</h2>
+                        <button class="btn btn-lg bttn">More Info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============ Attraction section end============ -->
+
+
+    <!--============ powd section start============= -->
+    <section class="container-fluid px-0">
+        <div class="powd">
+            <div class="powd-content text-white" data-aos="zoom-in-up">
+                <h1 class="text-center hf">"MORE POWD, LESS CROWD"</h1>
+                <p class="text-center">Luxury Vacation Rental Homes Offered at an Excellent Value. Serving Powder
+                    Mountain, Snowbasin Ski Resorts and the Ogden Valley.</p>
+
+            </div>
+        </div>
+    </section>
+    <!--============ powd section end============= -->
+
+
+    <!-- =============vidanta section start============= -->
+    <section class="container py-5">
+        <h1 class="c1 text-center hf">Vidanta Destinations</h1>
+        <p class="text-center">Every one of the Vidanta destinations has been selected for its natural beauty.
+        <div class="row vid">
+            <div class="col-lg-4 col-md-6 py-5">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <img src="./image/v1.jpg"
+                            alt="photo">
+                    </div>
+                    <div class="card-footer text-center">
+                        <h4 class="hf">Nuevo Vallarta </h4>
+                        <button class="btn bttn">Learn More <i class="fa-solid fa-arrow-right-long"></i></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 py-5">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <img src="./image/v2.jpg"
+                            alt="photo">
+                    </div>
+                    <div class="card-footer text-center">
+                        <h4 class="hf">Nuevo Vallarta </h4>
+                        <button class="btn bttn">Learn More <i class="fa-solid fa-arrow-right-long"></i></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 py-5">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <img src="./image/v3.jpg"
+                            alt="photo">
+                    </div>
+                    <div class="card-footer text-center">
+                        <h4 class="hf">Nuevo Vallarta </h4>
+                        <button class="btn bttn">Learn More <i class="fa-solid fa-arrow-right-long"></i></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 py-5">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <img src="./image/v4.jpg"
+                            alt="photo">
+                    </div>
+                    <div class="card-footer text-center">
+                        <h4 class="hf">Nuevo Vallarta </h4>
+                        <button class="btn bttn">Learn More <i class="fa-solid fa-arrow-right-long"></i></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 py-5">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <img src="./image/5.jpg"
+                            alt="photo">
+                    </div>
+                    <div class="card-footer text-center">
+                        <h4 class="hf">Nuevo Vallarta </h4>
+                        <button class="btn bttn">Learn More <i class="fa-solid fa-arrow-right-long"></i></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 py-5">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <img src="./image/v6.jpg"
+                            alt="photo">
+                    </div>
+                    <div class="card-footer text-center">
+                        <h4 class="hf">Nuevo Vallarta </h4>
+                        <button class="btn bttn">Learn More <i class="fa-solid fa-arrow-right-long"></i></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </p>
+    </section>
+    <!-- =============vidanta section end============= -->
+
+
+    <!-- =============Check in mob section start============= -->
+    <div class="mob container text-white" id="cn">
+        <div class="form-row">
+            <div class="col-lg-3 col-md-6">
+                <label for="checkin">Check In</label> <br>
+                <input class="form-control form-control-lg" type="text" placeholder="Check In Date">
+            </div>
+            <div class="col-lg-3 col-md-6"> <label for="checkout">Check Out</label> <br>
+                <input class="form-control form-control-lg" id="checkput" type="text" placeholder="Check Out Date">
+            </div>
+            <div class="col-lg-1 col-md-6"> <label for="checkin">Adults</label> <br>
+                <select class="form-control form-control-lg" name="adult" id="adult">
+                    <option value="1" disabled selected hidden>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="col-lg-1 col-md-6"> <label for="checkin">Children</label> <br>
+                <select class="form-control form-control-lg" name="child" id="child">
+                    <option value="0" disabled selected hidden>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="col-lg-3 py-3 col-md-6"> <button class="btn bttn btn-block btn-lg">Search</button></div>
+        </div>
+        </form>
+    </div>
+    <!-- =============Check in mob section end============= -->
+
+
+    <!-- =============Wheather start============= -->
+    <section class="container-fluid bg-light">
+        <div class="p-5">
+            <iframe loading="lazy" id="forecast_embed" frameborder="0" height="245" width="100%"
+                src="//forecast.io/embed/#lat=41.2932&lon=-111.8062&name=Eden, Utah&color=#217fbe&font=Merriweather"></iframe>
+        </div>
+
+    </section>
+    <!-- =============Wheather end============= -->
+
+
+    <!-- =============question start============= -->
+    <section class="container py-5">
+        <h1 class="c1 text-center hf p-3">QUE<span class="ques hf py-3">STI</span>ONS?</h1>
+        <div class="form-row py-5">
+            <div class="col-lg-3 col-md-6 py-3">
+                <input class="form-control form-control-lg" type="text" placeholder="Name">
+            </div>
+            <div class="col-lg-3 col-md-6 py-3">
+                <input class="form-control form-control-lg" type="text" placeholder="Email Address">
+            </div>
+            <div class="col-lg-3 col-md-6 py-3">
+                <input class="form-control form-control-lg" type="text" placeholder="Phone">
+            </div>
+            <div class="col-lg-3 col-md-6 py-3">
+                <input class="form-control form-control-lg" type="text" placeholder="Question / Comment">
+            </div>
+            <div class="col-sm-3  py-3 mx-auto">
+                <button class="btn btn-lg btn-block bttn">Send</button>
+            </div>
+
+        </div>
+    </section>
+    <!-- =============question end============= -->
+<!-- 
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0"
+        nonce="GU717oAO"></script>
+
+
+
+
+    <div class="fb-post" data-href="https://www.facebook.com/20531316728/posts/10154009990506729/" data-width="500"
+        data-show-text="true">
+        <blockquote cite="https://www.facebook.com/20531316728/posts/10154009990506729/" class="fb-xfbml-parse-ignore">
+            Posted by <a href="https://www.facebook.com/facebook/">Facebook</a> on&nbsp;<a
+                href="https://www.facebook.com/20531316728/posts/10154009990506729/">Thursday, 27 August 2015</a>
+        </blockquote>
+    </div> -->
+
+
+
+    <!-- =======footer start========== -->
+    <footer class="container-fluid bg-dark py-5 text-white">
+        <div class="foot mx-auto">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="py-4 hf">"MORE POWD, LESS CROWD"</h5>
+                    <p>Luxury Vacation Rental Homes Offered at an Excellent Value. Serving Powder Mountain, Snowbasin
+                        Ski Resorts, and the Ogden Valley.</p>
+                    <img src="./image/navbar-logo.png"
+                        height="90px" alt="logo">
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="py-4 hf">IMPORTANTS LINKS</h5>
+                    <ul class=" navi">
+                        <li class="nav-item"> <a href="index.html" class="nav-link">Home </a></li>
+                        <li class="nav-item"> <a href="#" class="nav-link">About us </a></li>
+                        <li class="nav-item"> <a href="#" class="nav-link">Vacation Rentals </a></li>
+                        <li class="nav-item"> <a href="#" class="nav-link">Reviews </a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="py-4 hf">CONTACT US</h5>
+                    <p><i class="fa-solid fa-phone"> </i> 9100007730/1</p>
+                    <p><i class="fa-solid fa-envelope"> </i> support@ vortexdigitalworld.com</p>
+                    <p><i class="fa-solid fa-address-book"> </i> 5964 E Big Horn Pkwy, Eden, UT 84310</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="py-4 hf">SOCIAL LINKS</h5>
+                    <p><i class="fa-brands fa-facebook"></i> Facebook</p>
+                    <p><i class="fa-brands fa-twitter"></i> Twitter</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- =======footer end========== -->
+</body>
+<!-- header effect -->
+<script>
+    $(document).ready(function () {
+        // header effect
+        if ($(window).width() >= 992) {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= 200) {
+                    $("nav").addClass("sticky-top bg-dark");
+                }
+                else {
+                    $("nav").removeClass("sticky-top bg-dark");
+                };
+            });
+        }
+        else {
+            $("nav").addClass("sticky-top bg-dark");
+        };
+        //         $("#cnbtn").click(function () {
+        //   $('html, body').animate({
+        //     scrollTop: $("#cn").offset().top
+        //   }, 1000)
+        //         });
+
+    });
+</script>
+
+<!-- welcome text read/less button js -->
+<script>
+    $(document).ready(function () {
+        $("#bttn").click(function () {
+            if ($("#well-txt").hasClass("fw")) {
+                $("#well-txt").css("height", "430px")
+            }
+            else {
+                $("#well-txt").css("height", "fit-content")
+            }
+        });
+
+        $("#bttn").click(function () {
+            if ($("#well-txt").hasClass("fw")) {
+                $("#well-txt").removeClass("fw");
+            }
+            else {
+                $("#well-txt").addClass("fw");
+            }
+        });
+
+        $("#bttn").click(function () {
+            if ($("#well-txt").hasClass("fw")) {
+                $("#txtbtn").text("less");
+            }
+            else {
+                $("#txtbtn").text("More");
+            }
+        });
+    });
+</script>
+
+<!-- data Aos -->
+<script>
+    AOS.init();
+</script>
+
+
+</html>
